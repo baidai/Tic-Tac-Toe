@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>TIC TAC TOE</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'ttt_app/style.css' %}" type=text/css>
+
+  </head>
+  <body>
+
+  	<table>
+  		<tr>
+  			<td class="cell" id="0"></td>
+  			<td class="cell" id="1"></td>
+  			<td class="cell" id="2"></td>
+  		</tr>
+      <tr>
+  			<td class="cell" id="3"></td>
+  			<td class="cell" id="4"></td>
+  			<td class="cell" id="5"></td>
+  		</tr>
+      <tr>
+  			<td class="cell" id="6"></td>
+  			<td class="cell" id="7"></td>
+  			<td class="cell" id="8"></td>
+  		</tr>
+  	</table>
+  	<div class="endgame">
+  		<div class="text"></div>
+  	</div>
+  	<button onClick="startGame()">Replay</button>
+
+  			
+
+  	<script src="script.js"></script>>
+  
+  </body>
+</html>
