@@ -6,3 +6,6 @@ You will be playing againt an AI that utilizes the minimax algorithm, this algor
 Built with:  
 
 The front end consists of Javascript, CSS and HTML.  While the backend runs on a Django Rest Framework.
+
+Built using:
+Git Flow work flow and Python
