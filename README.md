@@ -3,3 +3,4 @@
 This tic tac toe game is fun to play, but unfortunately you will never win. Try it! You will be playing againt an AI that utilizes the minimax algorithm, this algorithm statically calculates the worst case scenarios for every move it makes.  The front end consists of Javascript, CSS and HTML.  While the backend runs on a Django Rest Framework.
 
 Built with JAVASCRIPT, CSS, HTML, DJANGO REST FRAME WORK and PYTHON
+Built using GIT FLOW work flow.
